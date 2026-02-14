@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Curl Render
         run: |
-          curl -I https://jhm-new.onrender.com/ping
+          curl -I https://jhm-new.onrender.com/health > /dev/null
